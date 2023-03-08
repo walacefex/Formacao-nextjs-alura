@@ -5,7 +5,7 @@ import { Image, Box, Text, Icon, Input, Button } from '../../theme/components';
 import PageTitle from '../../components/PageTitle';
 
 const LOGO_ALURA_URL = '/images/alura-logo.svg';
-const SIDE_IMAGE_URL = '/images/alura-cases.png';
+const SIDE_IMAGE_URL = '/images/alura-cases.png'
 
 function SideImage() {
   return (
@@ -98,7 +98,7 @@ export default function HomeScreen() {
   return (
     <Box>
       <PageTitle>
-        Home - Alura Cases
+        Home - Alura Cases Campanha
       </PageTitle>
       <Box
         as="main"
